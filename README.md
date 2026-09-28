@@ -11,6 +11,9 @@ Edita `content.json` y ejecuta `python3 build.py` desde esta carpeta. Después s
 - `projects`: orden de los proyectos, títulos, descripciones, categorías y galerías.
 - `image`: nombre de imagen en `assets`, sin extensión; las imágenes son JPG.
 - `alt`: descripción accesible de la portada.
+- `cover_url`: portada externa opcional (usada en Spec AI Campaigns).
+- `more_work`: selección adicional de películas de la home.
+- `reel_thumbnail`: miniatura del showreel.
 - `video_url`: URL real del vídeo; vacío muestra “Film link coming soon”, sin enlace falso.
 - `reel_url`: URL del reel; vacío conserva el CTA al canal de YouTube.
 - `email`, `youtube`, `archive`: datos conservados de la web publicada.
@@ -19,10 +22,12 @@ Edita `content.json` y ejecuta `python3 build.py` desde esta carpeta. Después s
 ## Imágenes
 Se utilizan las diez imágenes recuperadas de la conversación. Se han exportado copias JPG optimizadas (máximo 2000 px) sin modificar los originales. Portadas: coche bajo la lluvia, pescador entrando al mar, Valeria con vestido verde al atardecer y Alura en hotel con copa. Las otras imágenes aparecen en las galerías de sus respectivos proyectos.
 
-Spec AI Campaigns utiliza una composición tipográfica provisional, ya que no se aportó una imagen identificada para esa categoría. Se han añadido The Passenger, Jarjacha (Vex Darkness), Sant Joan y Madeira (Valeria Satie), y The Morning After (Spec AI Campaigns). Siguen pendientes el vídeo de Alura Thorne y el reel. No se han inventado clientes, resultados ni créditos.
+El logo original se conserva sin modificar en `assets/lanius-logo.png`, utilizado en cabecera, pie y favicon. Las miniaturas del showreel y de los vídeos usan las URLs públicas de YouTube: requieren conexión y se pueden sustituir por nuevas URLs en `content.json`. Spec AI Campaigns usa la miniatura de The Morning After.
+
+La selección incluye 17 películas y el showreel de 2026. Se conserva el orden principal: The Passenger, Vex Darkness, Valeria Satie, Alura Thorne y Spec AI Campaigns. No se han inventado clientes, resultados ni créditos.
 
 ## Vista local
 Abre `index.html` directamente o ejecuta `python3 -m http.server 8000` y visita http://localhost:8000.
 
 ## Varios vídeos por proyecto
-`videos` contiene una lista de objetos con `title` y `url`. Sus botones aparecen tanto en la home como en la página del proyecto. `video_url` queda como respaldo para proyectos sin lista.
+`videos` contiene objetos con `title`, `url`, `thumbnail` y `category`. La home enlaza la pieza principal y la colección; cada página de proyecto muestra todas sus películas con miniaturas. `video_url` queda como respaldo para proyectos sin lista.

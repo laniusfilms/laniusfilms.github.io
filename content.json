@@ -2,7 +2,7 @@
   "email": "laniusfilms@gmail.com",
   "youtube": "https://www.youtube.com/@laniusfilms",
   "archive": "https://laniusfilms.wordpress.com/",
-  "reel_url": "",
+  "reel_url": "https://www.youtube.com/watch?v=inUsMjauHSg",
   "projects": [
     {
       "id": "the-passenger",
@@ -20,7 +20,9 @@
       "videos": [
         {
           "title": "The Passenger",
-          "url": "https://youtu.be/e6pMpZrxgxc?si=PrTywpI4Ll-C6UaM"
+          "url": "https://youtu.be/e6pMpZrxgxc?si=PrTywpI4Ll-C6UaM",
+          "thumbnail": "https://i.ytimg.com/vi/e6pMpZrxgxc/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCRtVN18tOoRYoaLG7lA5OOVs5f-g",
+          "category": "Narrative AI Film"
         }
       ]
     },
@@ -39,7 +41,27 @@
       "videos": [
         {
           "title": "Jarjacha",
-          "url": "https://youtube.com/shorts/CXYfxc1Yt4E?si=5esPCmAtYRcJU6DT"
+          "url": "https://youtube.com/shorts/CXYfxc1Yt4E?si=5esPCmAtYRcJU6DT",
+          "thumbnail": "https://i.ytimg.com/vi/CXYfxc1Yt4E/sardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCCE7zmTOn-qKM_YEaRVMvg_mvEXQ",
+          "category": "Horror"
+        },
+        {
+          "title": "La Llorona",
+          "url": "https://www.youtube.com/shorts/1KGSpgnToDw",
+          "thumbnail": "https://i.ytimg.com/vi/1KGSpgnToDw/sardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCvX8x6HoKLC3cXsA2FVIdt7aR2eg",
+          "category": "Dashcam horror"
+        },
+        {
+          "title": "Ghost Kitchen",
+          "url": "https://www.youtube.com/shorts/d6-8Xs66ecg",
+          "thumbnail": "https://i.ytimg.com/vi/d6-8Xs66ecg/sardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCQSGBeNw8Ac5yDOyI8x_OU7EeM9Q",
+          "category": "Found-footage horror"
+        },
+        {
+          "title": "The Follower",
+          "url": "https://www.youtube.com/shorts/prTiM81a8KE",
+          "thumbnail": "https://i.ytimg.com/vi/prTiM81a8KE/sardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAcecoEczRKvoKrAY5p1-6Zsqegvw",
+          "category": "Found-footage horror"
         }
       ]
     },
@@ -58,11 +80,21 @@
       "videos": [
         {
           "title": "Sant Joan",
-          "url": "https://youtube.com/shorts/jWVXYVN-Y2I?si=QXNgGBjqFc1zawLg"
+          "url": "https://youtube.com/shorts/jWVXYVN-Y2I?si=QXNgGBjqFc1zawLg",
+          "thumbnail": "https://i.ytimg.com/vi/jWVXYVN-Y2I/sardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCwzkU0ACM9Vo2cZfEs83DlpvacWw",
+          "category": "AI Character"
         },
         {
           "title": "Madeira",
-          "url": "https://youtube.com/shorts/u4Ar4bxAP8I?si=lPZs9Ay-Skrv72z3"
+          "url": "https://youtube.com/shorts/u4Ar4bxAP8I?si=lPZs9Ay-Skrv72z3",
+          "thumbnail": "https://i.ytimg.com/vi/u4Ar4bxAP8I/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBU7jj8IyabOYTmumdjALbpPaReGg&usqp=CCk",
+          "category": "AI Character"
+        },
+        {
+          "title": "Iceland",
+          "url": "https://www.youtube.com/shorts/oN-sfSQ3YX4",
+          "thumbnail": "https://i.ytimg.com/vi/oN-sfSQ3YX4/hq720.jpg?sqp=-oaymwEoCJUDENAFSFryq4qpAxoIARUAAIhC0AEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCVrK8j65ZPJp8clDFMXhW49xIOKg",
+          "category": "AI character film"
         }
       ]
     },
@@ -78,25 +110,80 @@
         "alura-fashion-1",
         "alura-fashion-2"
       ],
-      "video_url": "",
-      "videos": []
+      "video_url": "https://www.youtube.com/shorts/4KPNG_sq3s0",
+      "videos": [
+        {
+          "title": "Rituals",
+          "url": "https://www.youtube.com/shorts/4KPNG_sq3s0",
+          "thumbnail": "https://i.ytimg.com/vi/4KPNG_sq3s0/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLD3b_OeU-OUunv0QFGUxrPpCVqupw&usqp=CCk",
+          "category": "AI character film"
+        },
+        {
+          "title": "Costa Brava",
+          "url": "https://www.youtube.com/shorts/yGPv1dmWs1Y",
+          "thumbnail": "https://i.ytimg.com/vi/yGPv1dmWs1Y/hq720.jpg?sqp=-oaymwEoCJUDENAFSFryq4qpAxoIARUAAIhC0AEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAK9YUFvxSxLBKEdHYCDzKNKzIwyA",
+          "category": "AI character film"
+        }
+      ]
     },
     {
       "id": "spec-ai-campaigns",
       "title": "Spec AI Campaigns",
-      "category": "Beauty / Tech / Commercial",
+      "category": "Beauty / Fashion / Commercial",
       "image": null,
-      "alt": "",
-      "description": "Self-initiated commercial concepts exploring brand storytelling through generative imagery, creative direction and editing.",
+      "alt": "The Morning After — official YouTube thumbnail",
+      "description": "Self-initiated beauty and fashion films exploring mood, styling and visual storytelling through generative production.",
       "tags": "Spec work · Creative direction · Branded content",
       "gallery": [],
       "video_url": "https://youtube.com/shorts/u-hAFLda9GM?si=MUGkpr47fwujF1lz",
       "videos": [
         {
           "title": "The Morning After",
-          "url": "https://youtube.com/shorts/u-hAFLda9GM?si=MUGkpr47fwujF1lz"
+          "url": "https://youtube.com/shorts/u-hAFLda9GM?si=MUGkpr47fwujF1lz",
+          "thumbnail": "https://i.ytimg.com/vi/u-hAFLda9GM/sardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBOX15GiAtaBcoQNkpbGwCanh4tWA",
+          "category": "Beauty"
+        },
+        {
+          "title": "The Dressing Room",
+          "url": "https://www.youtube.com/shorts/te0JJL8hJd0",
+          "thumbnail": "https://i.ytimg.com/vi/te0JJL8hJd0/oar1.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCCYhreGt7p-zLSdVC4Pl9-BcN_hw&usqp=CCk",
+          "category": "AI fashion film"
         }
-      ]
+      ],
+      "cover_url": "https://i.ytimg.com/vi/u-hAFLda9GM/sardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBOX15GiAtaBcoQNkpbGwCanh4tWA"
+    }
+  ],
+  "reel_thumbnail": "https://i.ytimg.com/vi/inUsMjauHSg/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGHIgVSg_MA8=&rs=AOn4CLDs15ho0owqDbk4FakRiF5e41jrGA",
+  "more_work": [
+    {
+      "title": "Anomalous Contact",
+      "url": "https://www.youtube.com/shorts/ENhfoylp6CQ",
+      "thumbnail": "https://i.ytimg.com/vi/ENhfoylp6CQ/sardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDh-xr8KjjxuI_oZllA8obNcJfUTA",
+      "category": "AI science fiction"
+    },
+    {
+      "title": "Edita Restaurant · Barcelona",
+      "url": "https://www.youtube.com/watch?v=f7HLcFtTyY4",
+      "thumbnail": "https://i.ytimg.com/an_webp/f7HLcFtTyY4/mqdefault_6s.webp?du=3000&sqp=CKCP69UG&rs=AOn4CLCQjaDLOWNsD5p6l_b5nUoZCAPP9w",
+      "category": "Hospitality"
+    },
+    {
+      "title": "Bodegas Coronado · Elegancia",
+      "url": "https://www.youtube.com/watch?v=VZPhWW-7ZJQ",
+      "thumbnail": "https://i.ytimg.com/vi/VZPhWW-7ZJQ/hqdefault.jpg?sqp=-oaymwFBCOADEI4CSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGHIgRSg0MA8=&rs=AOn4CLAJ7s-6J_g3qMgwSLESig4L7lqi-g",
+      "category": "Product film"
+    },
+    {
+      "title": "Inertia · EJRM",
+      "url": "https://www.youtube.com/watch?v=ytjX4fJJIX4",
+      "thumbnail": "https://i.ytimg.com/vi/ytjX4fJJIX4/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGFkgXChlMA8=&rs=AOn4CLAuVsH8xegRqmhCgY3815Nrj9W77g",
+      "category": "Music film"
+    },
+    {
+      "title": "Punto Rojo",
+      "url": "https://www.youtube.com/watch?v=xdG11cBJjt0",
+      "thumbnail": "https://i.ytimg.com/vi/xdG11cBJjt0/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDtapetO-_plDzyCIk-vsI5lMCxGQ",
+      "category": "Theatre"
     }
   ]
 }
