@@ -1,0 +1,102 @@
+{
+  "email": "laniusfilms@gmail.com",
+  "youtube": "https://www.youtube.com/@laniusfilms",
+  "archive": "https://laniusfilms.wordpress.com/",
+  "reel_url": "",
+  "projects": [
+    {
+      "id": "the-passenger",
+      "title": "The Passenger",
+      "category": "Narrative AI Film",
+      "image": "passenger",
+      "alt": "A car driving through a rain-soaked forest at night",
+      "description": "Atmosphere-led visual storytelling, built around cinematic framing, tension and a cohesive narrative world.",
+      "tags": "Narrative · Atmosphere · Generative video",
+      "gallery": [
+        "passenger-mirror",
+        "passenger-forest"
+      ],
+      "video_url": "https://youtu.be/e6pMpZrxgxc?si=PrTywpI4Ll-C6UaM",
+      "videos": [
+        {
+          "title": "The Passenger",
+          "url": "https://youtu.be/e6pMpZrxgxc?si=PrTywpI4Ll-C6UaM"
+        }
+      ]
+    },
+    {
+      "id": "vex-darkness",
+      "title": "Vex Darkness",
+      "category": "Horror / Found Footage / Worldbuilding",
+      "image": "vex",
+      "alt": "A fisherman entering a turbulent sea beneath a dark sky",
+      "description": "An interconnected horror universe exploring found-footage aesthetics, unsettling environments and visual mythology.",
+      "tags": "Horror · Found footage · Worldbuilding",
+      "gallery": [
+        "vex-entities"
+      ],
+      "video_url": "https://youtube.com/shorts/CXYfxc1Yt4E?si=5esPCmAtYRcJU6DT",
+      "videos": [
+        {
+          "title": "Jarjacha",
+          "url": "https://youtube.com/shorts/CXYfxc1Yt4E?si=5esPCmAtYRcJU6DT"
+        }
+      ]
+    },
+    {
+      "id": "valeria",
+      "title": "Valeria Satie",
+      "category": "AI Character / Lifestyle / Travel",
+      "image": "valeria",
+      "alt": "Valeria Satie wearing a green dress in warm sunset light",
+      "description": "A digital character study exploring visual consistency across travel, lifestyle and cinematic environments.",
+      "tags": "Character consistency · Lifestyle · Travel",
+      "gallery": [
+        "valeria-ocean"
+      ],
+      "video_url": "https://youtube.com/shorts/jWVXYVN-Y2I?si=QXNgGBjqFc1zawLg",
+      "videos": [
+        {
+          "title": "Sant Joan",
+          "url": "https://youtube.com/shorts/jWVXYVN-Y2I?si=QXNgGBjqFc1zawLg"
+        },
+        {
+          "title": "Madeira",
+          "url": "https://youtube.com/shorts/u4Ar4bxAP8I?si=lPZs9Ay-Skrv72z3"
+        }
+      ]
+    },
+    {
+      "id": "alura-thorne",
+      "title": "Alura Thorne",
+      "category": "Digital Character / Luxury / Fashion",
+      "image": "alura",
+      "alt": "Alura holding a glass in a hotel overlooking the city skyline",
+      "description": "Fashion-led storytelling with a distinct character identity, atmospheric interiors and a considered luxury aesthetic.",
+      "tags": "Digital character · Luxury · Fashion",
+      "gallery": [
+        "alura-fashion-1",
+        "alura-fashion-2"
+      ],
+      "video_url": "",
+      "videos": []
+    },
+    {
+      "id": "spec-ai-campaigns",
+      "title": "Spec AI Campaigns",
+      "category": "Beauty / Tech / Commercial",
+      "image": null,
+      "alt": "",
+      "description": "Self-initiated commercial concepts exploring brand storytelling through generative imagery, creative direction and editing.",
+      "tags": "Spec work · Creative direction · Branded content",
+      "gallery": [],
+      "video_url": "https://youtube.com/shorts/u-hAFLda9GM?si=MUGkpr47fwujF1lz",
+      "videos": [
+        {
+          "title": "The Morning After",
+          "url": "https://youtube.com/shorts/u-hAFLda9GM?si=MUGkpr47fwujF1lz"
+        }
+      ]
+    }
+  ]
+}
