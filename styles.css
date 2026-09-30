@@ -31,3 +31,6 @@ nav{letter-spacing:.03em}
 @media(max-width:900px){.project.spec-project{grid-template-columns:1fr;gap:30px}.spec-copy h3,.spec-copy>p{max-width:560px}.spec-films{max-width:600px}.brand-logo{width:120px;height:106px}header{height:112px}}
 @media(max-width:700px){header{height:98px}.brand-logo{width:100px;height:90px}.hero h1{font-size:clamp(48px,12vw,59px)}.project-grid{gap:42px}.project.featured .media img,.project:nth-child(2) .media img{height:auto;aspect-ratio:16/10}.project.spec-project{padding:32px 0;gap:25px}.spec-films{gap:14px}.spec-films .film-card h3{font-size:18px}.spec-copy h3{font-size:34px}.spec-copy>p{font-size:13px}footer .brand-logo{width:110px;height:100px}}
 @media(prefers-reduced-motion:reduce){.button{transition:none}}
+
+/* Softer hero emphasis. */
+.hero h1 em{color:#c6bfb2}
