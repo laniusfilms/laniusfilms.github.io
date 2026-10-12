@@ -34,7 +34,7 @@ for i,p in enumerate(c['projects']):
  if p['id']=='spec-ai-campaigns':
   cards.append(nocturne_feature())
   films=''.join(film_card(v) for v in vv)
-  cards.append(f'''<article class="project spec-project"><div class="spec-copy"><p class="eyebrow">05 / {esc(p['category'])}</p><h3><a href="{p['id']}.html">{esc(p['title'])}</a></h3><p>{esc(p['description'])}</p><p class="spec-focus">{esc(p['tags'])}</p><a class="text-link" href="{p['id']}.html">Explore the project →</a></div><div><p class="eyebrow">VERTICAL FILMS / 9:16</p><div class="spec-films">{films}</div></div></article>''')
+  cards.append(f'''<article class="project spec-project" style="grid-column:1/-1"><div class="spec-copy"><p class="eyebrow">05 / {esc(p['category'])}</p><h3><a href="{p['id']}.html">{esc(p['title'])}</a></h3><p>{esc(p['description'])}</p><p class="spec-focus">{esc(p['tags'])}</p><a class="text-link" href="{p['id']}.html">Explore the project →</a></div><div><p class="eyebrow">VERTICAL FILMS / 9:16</p><div class="spec-films">{films}</div></div></article>''')
   continue
  cls=('featured ' if i==0 else '')+('portrait ' if p['id'] in ('valeria','alura-thorne') else '')+('spec-project' if p['id']=='spec-ai-campaigns' else '')
  cards.append(f'''<article class="project {cls}"><a class="media" href="{p['id']}.html" aria-label="Explore {esc(p['title'])}">{image(p)}<span class="media-label">{i+1:02d} / {esc(p['category'])}</span><span class="arrow" aria-hidden="true">↗</span></a><div class="project-text"><div><p class="eyebrow">{esc(p['category'])}</p><h3><a href="{p['id']}.html">{esc(p['title'])}</a></h3></div><p>{esc(p['description'])}</p></div><div class="project-actions">{primary_action(p)}{collection}</div></article>''')
@@ -55,7 +55,7 @@ for i,p in enumerate(c['projects']):
  film_section=f'<section id="films" class="project-films"><p class="eyebrow">WATCH THE WORK</p><h2>{"Selected films" if len(vv)>1 else "The film"}</h2><div class="film-grid">'+''.join(film_card(v) for v in vv)+'</div></section>'
  if p['id']=='spec-ai-campaigns':
   cover=nocturne_feature()
-  film_section=film_section.replace('Selected films','Vertical films · 9:16')
+  film_section=film_section.replace('Selected films','Vertical films · 9:16').replace('<img ', '<img style="aspect-ratio:9/16;object-fit:cover" ')
  nextp=c['projects'][(i+1)%len(c['projects'])]
  page=head(p['title'],p['description'])+f'''<main id="main" class="container detail"><a class="back" href="index.html#work">← All projects</a><p class="eyebrow">{esc(p['category'])}</p><h1>{esc(p['title'])}</h1><div class="detail-intro"><p>{esc(p['description'])}</p><a class="button" href="#films">Explore {len(vv)} {"films" if len(vv)>1 else "film"} ↓</a></div>{cover}<div class="detail-meta"><p class="eyebrow">PROJECT FOCUS</p><p>{esc(p['tags'])}</p></div>{film_section}<div class="gallery">{gallery}</div><div class="next"><span class="eyebrow">NEXT PROJECT</span><a href="{nextp['id']}.html">{esc(nextp['title'])} ↗</a></div></main>'''+footer()
  (ROOT/f"{p['id']}.html").write_text(page)
