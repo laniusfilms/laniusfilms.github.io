@@ -35,12 +35,21 @@ nav{letter-spacing:.03em}
 /* Softer hero emphasis. */
 .hero h1 em{color:#c6bfb2}
 
-/* AI campaign collection: respect each film's original format. */
-.campaign-films{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.spec-project{grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr)!important}
-.campaign-films .film-thumb img{aspect-ratio:4/5;object-fit:contain;background:#101211}
-.film-card.landscape .film-thumb img{aspect-ratio:16/9;object-fit:cover}
-.project-films .film-card.portrait .film-thumb img{aspect-ratio:9/16;object-fit:contain}
+/* Film frames use a single native aspect ratio within each collection. */
+.film-thumb{aspect-ratio:9/16}
+.film-thumb img,.project-films .film-thumb img{height:100%;width:100%;aspect-ratio:auto;object-fit:cover}
+.film-card.landscape .film-thumb{aspect-ratio:16/9}
+.film-card.landscape .film-thumb img{aspect-ratio:auto;object-fit:cover}
+.campaign-films{grid-template-columns:repeat(3,minmax(0,1fr));max-width:none;gap:20px}
+.campaign-films .film-card h3{min-height:2.5em}
+.spec-project{grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr)!important;align-items:start!important}
+.more-work .film-grid,.portrait-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.landscape-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.project-films .film-grid{margin-bottom:48px}
 .alternate-cuts{display:flex;gap:25px;margin-bottom:45px}
-@media(max-width:900px){.spec-project{grid-template-columns:1fr!important}.campaign-films{max-width:none}}
-@media(max-width:700px){.campaign-films{grid-template-columns:1fr 1fr}.campaign-films .film-card:last-child{grid-column:1/-1;max-width:100%}.hero .eyebrow{max-width:300px}}
+@media(max-width:1000px){.spec-project{grid-template-columns:1fr!important}.more-work .film-grid,.portrait-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.campaign-films,.landscape-grid{grid-template-columns:1fr}.campaign-films .film-card h3{min-height:0}.campaign-films .film-card:last-child{grid-column:auto}.project-films .portrait-grid{grid-template-columns:1fr 1fr}.hero .eyebrow{max-width:300px}}
+
+.film-card h3{min-height:2.4em}
+
+.landscape-grid:has(>.film-card:only-child){grid-template-columns:minmax(0,760px)}
