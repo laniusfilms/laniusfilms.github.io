@@ -53,3 +53,7 @@ nav{letter-spacing:.03em}
 .film-card h3{min-height:2.4em}
 
 .landscape-grid:has(>.film-card:only-child){grid-template-columns:minmax(0,760px)}
+
+/* Keep playback controls clear of the image subject. */
+.play-mark{left:16px;top:auto;bottom:16px;transform:none}
+@media(max-width:700px){.play-mark{left:12px;bottom:12px}}
