@@ -37,8 +37,15 @@
       "gallery": [
         "vex-entities"
       ],
-      "video_url": "https://youtube.com/shorts/CXYfxc1Yt4E?si=5esPCmAtYRcJU6DT",
+      "video_url": "https://www.youtube.com/shorts/TeCGtJEi6ZY",
       "videos": [
+        {
+          "title": "The Basement Files",
+          "url": "https://www.youtube.com/shorts/TeCGtJEi6ZY",
+          "thumbnail": "https://i.ytimg.com/vi/TeCGtJEi6ZY/hqdefault.jpg",
+          "category": "AI found-footage horror",
+          "format": "portrait"
+        },
         {
           "title": "Jarjacha",
           "url": "https://youtube.com/shorts/CXYfxc1Yt4E?si=5esPCmAtYRcJU6DT",
@@ -68,16 +75,44 @@
     {
       "id": "valeria",
       "title": "Valeria Satie",
-      "category": "AI Character / Lifestyle / Travel",
+      "category": "AI Character / Fashion / Lifestyle",
       "image": "valeria",
       "alt": "Valeria Satie wearing a green dress in warm sunset light",
-      "description": "A digital character study exploring visual consistency across travel, lifestyle and cinematic environments.",
+      "description": "A recurring AI character exploring fashion, lifestyle and travel through a consistent visual identity and cinematic editing.",
       "tags": "Character consistency · Lifestyle · Travel",
       "gallery": [
         "valeria-ocean"
       ],
-      "video_url": "https://youtube.com/shorts/jWVXYVN-Y2I?si=QXNgGBjqFc1zawLg",
+      "video_url": "https://www.youtube.com/shorts/GRWvNh3HzEI",
       "videos": [
+        {
+          "title": "Session 04 — Masquerades",
+          "url": "https://www.youtube.com/shorts/GRWvNh3HzEI",
+          "thumbnail": "https://i.ytimg.com/vi/GRWvNh3HzEI/hqdefault.jpg",
+          "category": "AI fashion film",
+          "format": "portrait"
+        },
+        {
+          "title": "Session 03",
+          "url": "https://www.youtube.com/shorts/UGk3CSBFAs8",
+          "thumbnail": "https://i.ytimg.com/vi/UGk3CSBFAs8/hqdefault.jpg",
+          "category": "AI fashion film",
+          "format": "portrait"
+        },
+        {
+          "title": "Session 02",
+          "url": "https://www.youtube.com/shorts/oXF-xJfsDTw",
+          "thumbnail": "https://i.ytimg.com/vi/oXF-xJfsDTw/hqdefault.jpg",
+          "category": "AI fashion film",
+          "format": "portrait"
+        },
+        {
+          "title": "Session 01",
+          "url": "https://www.youtube.com/shorts/mIppZI_FBTA",
+          "thumbnail": "https://i.ytimg.com/vi/mIppZI_FBTA/hqdefault.jpg",
+          "category": "AI fashion film",
+          "format": "portrait"
+        },
         {
           "title": "Sant Joan",
           "url": "https://youtube.com/shorts/jWVXYVN-Y2I?si=QXNgGBjqFc1zawLg",
@@ -110,8 +145,36 @@
         "alura-fashion-1",
         "alura-fashion-2"
       ],
-      "video_url": "https://www.youtube.com/shorts/4KPNG_sq3s0",
+      "video_url": "https://www.youtube.com/watch?v=97rAzkZPVqM",
       "videos": [
+        {
+          "title": "Come Closer",
+          "url": "https://www.youtube.com/watch?v=97rAzkZPVqM",
+          "thumbnail": "https://i.ytimg.com/vi/97rAzkZPVqM/hqdefault.jpg",
+          "category": "Cinematic AI trailer",
+          "format": "landscape"
+        },
+        {
+          "title": "A Little Longer",
+          "url": "https://www.youtube.com/shorts/K3hB-RP3zM8",
+          "thumbnail": "https://i.ytimg.com/vi/K3hB-RP3zM8/hqdefault.jpg",
+          "category": "AI character film",
+          "format": "portrait"
+        },
+        {
+          "title": "Beside You",
+          "url": "https://www.youtube.com/shorts/caqMSJXVtnQ",
+          "thumbnail": "https://i.ytimg.com/vi/caqMSJXVtnQ/hqdefault.jpg",
+          "category": "AI character film",
+          "format": "portrait"
+        },
+        {
+          "title": "Balance",
+          "url": "https://www.youtube.com/shorts/OqDUNW3se6k",
+          "thumbnail": "https://i.ytimg.com/vi/OqDUNW3se6k/hqdefault.jpg",
+          "category": "AI character film",
+          "format": "portrait"
+        },
         {
           "title": "Rituals",
           "url": "https://www.youtube.com/shorts/4KPNG_sq3s0",
@@ -129,19 +192,34 @@
     {
       "id": "spec-ai-campaigns",
       "title": "Spec AI Campaigns",
-      "category": "Beauty / Fashion / Commercial",
+      "category": "AI Campaigns / Fragrance / Fashion",
       "image": null,
-      "alt": "The Morning After — official YouTube thumbnail",
-      "description": "Self-initiated beauty and fashion films exploring mood, styling and visual storytelling through generative production.",
+      "alt": "NOCTURNE — Scent of the Night, AI fragrance film",
+      "description": "Self-initiated AI campaigns spanning fragrance, beauty, fashion and human-centred technology. Visual concepts developed through generative production and cinematic editing.",
       "tags": "Spec work · Creative direction · Branded content",
       "gallery": [],
-      "video_url": "https://youtube.com/shorts/u-hAFLda9GM?si=MUGkpr47fwujF1lz",
+      "video_url": "https://www.youtube.com/watch?v=h940Uvh2X5c",
       "videos": [
         {
           "title": "NOCTURNE — Scent of the Night",
-          "url": "https://www.youtube.com/shorts/xiagdFylT-A",
-          "thumbnail": "https://i.ytimg.com/vi/xiagdFylT-A/oar2.jpg",
-          "category": "AI fragrance spec film"
+          "url": "https://www.youtube.com/watch?v=h940Uvh2X5c",
+          "thumbnail": "https://i.ytimg.com/vi/h940Uvh2X5c/hqdefault.jpg",
+          "category": "AI fragrance spec film",
+          "format": "landscape"
+        },
+        {
+          "title": "SEREIN — After the Rain",
+          "url": "https://www.youtube.com/shorts/oqhsqRslQGY",
+          "thumbnail": "https://i.ytimg.com/vi/oqhsqRslQGY/hqdefault.jpg",
+          "category": "AI fragrance film",
+          "format": "portrait"
+        },
+        {
+          "title": "US. — A Future Built Around People",
+          "url": "https://www.youtube.com/watch?v=4_iEX9mQpNQ",
+          "thumbnail": "https://i.ytimg.com/vi/4_iEX9mQpNQ/hqdefault.jpg",
+          "category": "AI spec commercial",
+          "format": "landscape"
         },
         {
           "title": "The Morning After",
@@ -156,40 +234,50 @@
           "category": "AI fashion film"
         }
       ],
-      "cover_url": "https://i.ytimg.com/vi/u-hAFLda9GM/sardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBOX15GiAtaBcoQNkpbGwCanh4tWA"
+      "cover_url": "https://i.ytimg.com/vi/h940Uvh2X5c/hqdefault.jpg",
+      "alternate_versions": [
+        {
+          "title": "NOCTURNE · Vertical cut",
+          "url": "https://www.youtube.com/shorts/xiagdFylT-A"
+        }
+      ]
     }
   ],
   "reel_thumbnail": "https://i.ytimg.com/vi/inUsMjauHSg/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGHIgVSg_MA8=&rs=AOn4CLDs15ho0owqDbk4FakRiF5e41jrGA",
   "more_work": [
     {
+      "title": "US. — A Future Built Around People",
+      "url": "https://www.youtube.com/watch?v=4_iEX9mQpNQ",
+      "thumbnail": "https://i.ytimg.com/vi/4_iEX9mQpNQ/hqdefault.jpg",
+      "category": "AI spec commercial",
+      "format": "landscape"
+    },
+    {
+      "title": "SEREIN — After the Rain",
+      "url": "https://www.youtube.com/shorts/oqhsqRslQGY",
+      "thumbnail": "https://i.ytimg.com/vi/oqhsqRslQGY/hqdefault.jpg",
+      "category": "AI fragrance film",
+      "format": "portrait"
+    },
+    {
+      "title": "Session 04 — Masquerades",
+      "url": "https://www.youtube.com/shorts/GRWvNh3HzEI",
+      "thumbnail": "https://i.ytimg.com/vi/GRWvNh3HzEI/hqdefault.jpg",
+      "category": "AI fashion film",
+      "format": "portrait"
+    },
+    {
+      "title": "A Little Longer",
+      "url": "https://www.youtube.com/shorts/K3hB-RP3zM8",
+      "thumbnail": "https://i.ytimg.com/vi/K3hB-RP3zM8/hqdefault.jpg",
+      "category": "AI character film",
+      "format": "portrait"
+    },
+    {
       "title": "Anomalous Contact",
       "url": "https://www.youtube.com/shorts/ENhfoylp6CQ",
       "thumbnail": "https://i.ytimg.com/vi/ENhfoylp6CQ/sardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDh-xr8KjjxuI_oZllA8obNcJfUTA",
       "category": "AI science fiction"
-    },
-    {
-      "title": "Edita Restaurant · Barcelona",
-      "url": "https://www.youtube.com/watch?v=f7HLcFtTyY4",
-      "thumbnail": "https://i.ytimg.com/vi/f7HLcFtTyY4/hqdefault.jpg",
-      "category": "Hospitality"
-    },
-    {
-      "title": "Bodegas Coronado · Elegancia",
-      "url": "https://www.youtube.com/watch?v=VZPhWW-7ZJQ",
-      "thumbnail": "https://i.ytimg.com/vi/VZPhWW-7ZJQ/hqdefault.jpg?sqp=-oaymwFBCOADEI4CSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGHIgRSg0MA8=&rs=AOn4CLAJ7s-6J_g3qMgwSLESig4L7lqi-g",
-      "category": "Product film"
-    },
-    {
-      "title": "Inertia · EJRM",
-      "url": "https://www.youtube.com/watch?v=ytjX4fJJIX4",
-      "thumbnail": "https://i.ytimg.com/vi/ytjX4fJJIX4/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGFkgXChlMA8=&rs=AOn4CLAuVsH8xegRqmhCgY3815Nrj9W77g",
-      "category": "Music film"
-    },
-    {
-      "title": "Punto Rojo",
-      "url": "https://www.youtube.com/watch?v=xdG11cBJjt0",
-      "thumbnail": "https://i.ytimg.com/vi/xdG11cBJjt0/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDtapetO-_plDzyCIk-vsI5lMCxGQ",
-      "category": "Theatre"
     }
   ]
 }

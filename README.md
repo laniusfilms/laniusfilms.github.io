@@ -31,3 +31,6 @@ Abre `index.html` directamente o ejecuta `python3 -m http.server 8000` y visita 
 
 ## Varios vídeos por proyecto
 `videos` contiene objetos con `title`, `url`, `thumbnail` y `category`. La home enlaza la pieza principal y la colección; cada página de proyecto muestra todas sus películas con miniaturas. `video_url` queda como respaldo para proyectos sin lista.
+
+## Selección AI — noviembre 2026
+La home presenta únicamente piezas AI. `more_work` contiene la selección reciente; `projects[].videos` reúne cada colección. `format` admite `landscape` o `portrait`. Las versiones alternativas están en `alternate_versions`. Los vídeos de rodaje real siguen disponibles en YouTube y en la copia anterior de esta web.

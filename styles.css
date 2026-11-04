@@ -34,3 +34,13 @@ nav{letter-spacing:.03em}
 
 /* Softer hero emphasis. */
 .hero h1 em{color:#c6bfb2}
+
+/* AI campaign collection: respect each film's original format. */
+.campaign-films{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.spec-project{grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr)!important}
+.campaign-films .film-thumb img{aspect-ratio:4/5;object-fit:contain;background:#101211}
+.film-card.landscape .film-thumb img{aspect-ratio:16/9;object-fit:cover}
+.project-films .film-card.portrait .film-thumb img{aspect-ratio:9/16;object-fit:contain}
+.alternate-cuts{display:flex;gap:25px;margin-bottom:45px}
+@media(max-width:900px){.spec-project{grid-template-columns:1fr!important}.campaign-films{max-width:none}}
+@media(max-width:700px){.campaign-films{grid-template-columns:1fr 1fr}.campaign-films .film-card:last-child{grid-column:1/-1;max-width:100%}.hero .eyebrow{max-width:300px}}
