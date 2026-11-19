@@ -20,7 +20,7 @@ def head(title, description, path='index.html', cover='assets/lanius-logo.png'):
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{esc(description)}"><meta name="theme-color" content="#0b0d0d">
 <link rel="canonical" href="{BASE}{path}"><meta property="og:type" content="website"><meta property="og:site_name" content="Lanius Films"><meta property="og:url" content="{BASE}{path}"><meta property="og:title" content="{esc(full_title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:image" content="{esc(urljoin(BASE, cover))}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(full_title)}"><meta name="twitter:description" content="{esc(description)}"><meta name="twitter:image" content="{esc(urljoin(BASE, cover))}">
-<title>{esc(full_title)}</title><link rel="icon" href="assets/lanius-logo.png" type="image/png"><link rel="stylesheet" href="styles.css?v=20261119-inline"></head>
+<title>{esc(full_title)}</title><link rel="icon" href="assets/lanius-logo.png" type="image/png"><link rel="stylesheet" href="styles.css?v=20261119-layout"></head>
 <body><a class="skip" href="#main">Skip to content</a><header class="container">{brand()}<nav aria-label="Main navigation"><a href="index.html#work">Work</a><a href="index.html#about">About</a><a href="index.html#contact">Contact</a></nav></header>'''
 
 def footer():
