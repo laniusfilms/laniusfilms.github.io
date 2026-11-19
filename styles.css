@@ -67,7 +67,7 @@ nav{letter-spacing:.03em}
 .hero .intro{max-width:640px}
 .hero h1{max-width:1000px}
 .campaign-films{grid-template-columns:repeat(2,minmax(0,1fr))}
-.more-work .recent-grid{grid-template-columns:repeat(3,minmax(0,1fr));max-width:1000px}
+.more-work .recent-grid{grid-template-columns:repeat(4,minmax(0,1fr));max-width:none}
 .film-archive{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:40px 0 25px}
 .film-archive summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:25px 0;font-size:14px;color:var(--ink)}
 .film-archive summary::-webkit-details-marker{display:none}
@@ -120,3 +120,15 @@ footer>a:not(.brand){font-size:12px}
 .player-description:empty{display:none}
 .player-fallback{display:inline-block;font-size:13px;padding:8px 0;border-bottom:1px solid var(--line)}
 @media(max-width:700px){.film-description{font-size:16px}.film-player{padding:14px}.player-stage{max-height:62dvh}.portrait-player .player-stage{height:58dvh}.player-description{font-size:14px}.gallery figcaption{font-size:12px}.player-close{padding:9px 11px}}
+
+@media(max-width:1000px){.more-work .recent-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Alura trailer: editorial copy alongside the image on desktop only. */
+@media(min-width:901px){
+ .project-films .landscape-grid.trailer-layout:has(>.film-card:only-child){grid-template-columns:minmax(0,1fr)}
+ .trailer-layout>.film-card{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(0,1fr);column-gap:36px;grid-template-rows:1fr auto auto 1fr;align-content:center}
+ .trailer-layout .film-thumb{grid-column:1;grid-row:1/5;align-self:center}
+ .trailer-layout .eyebrow,.trailer-layout h3,.trailer-layout .film-description,.trailer-layout .film-cta{grid-column:2}
+ .trailer-layout .film-card .eyebrow{margin:0;align-self:end}
+ .trailer-layout .film-card .film-cta{justify-self:start;align-self:start}
+}

@@ -13,7 +13,7 @@ The generator creates `index.html` and a page for every `projects[].id`. Existin
 - `projects[].videos`: published films. Keep the portrait films in the order shown under **Most recent** on the official `@laniusfilms` YouTube channel. A landscape introduction/trailer is presented separately, without implying it is a recent release.
 - `featured_count`: number of portrait films shown before the expandable archive. Every earlier film remains available.
 - `featured_films`: curated branded concepts on the homepage, explicitly identified as independent spec work.
-- `more_work`: the three recent releases, in official channel publication order.
+- `more_work`: four selected releases on the homepage: the three recent character/series releases, followed by SEREIN as a selected fragrance concept. Keep chronological order within the individual project collections.
 - `more_work_archive`: previous homepage selections, preserved in a clearly labelled archive.
 - `image`: existing JPG artwork basename under `assets`; `cover_url` supports an approved local image or external poster.
 - `artwork_sources`: original URLs for the approved artwork copied into `assets`, retained for provenance.
