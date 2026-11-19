@@ -1,36 +1,29 @@
-# Lanius Films — GitHub Pages
+# Lanius Films — Independent Film & Creative Production
 
-Web estática lista para publicar. No necesita instalación, dependencias ni JavaScript en el navegador.
+Static studio portfolio for GitHub Pages. No installation or browser JavaScript required.
 
-## Subir a GitHub
-Descomprime el ZIP y sube su contenido a la raíz de `laniusfilms/laniusfilms.github.io`, sustituyendo los archivos del mismo nombre. `index.html` debe quedar en la raíz, no dentro de otra carpeta. Conserva Pages en main / root. No necesitas cambiar el dominio.
+## Update and build
 
-## Actualizar contenido
-Edita `content.json` y ejecuta `python3 build.py` desde esta carpeta. Después sube los HTML regenerados, las imágenes y el contenido actualizado. También puedes editar directamente los HTML, pero una regeneración sobrescribirá esos cambios.
+Edit `content.json`, then run `python3 build.py`. Commit the source, updated assets and **all generated HTML pages** together. Pages publishes the `main` branch, repository root.
 
-- `projects`: orden de los proyectos, títulos, descripciones, categorías y galerías.
-- `image`: nombre de imagen en `assets`, sin extensión; las imágenes son JPG.
-- `alt`: descripción accesible de la portada.
-- `cover_url`: portada externa opcional (usada en Spec AI Campaigns).
-- `more_work`: selección adicional de películas de la home.
-- `reel_thumbnail`: miniatura del showreel.
-- `video_url`: URL real del vídeo; vacío muestra “Film link coming soon”, sin enlace falso.
-- `reel_url`: URL del reel; vacío conserva el CTA al canal de YouTube.
-- `email`, `youtube`, `archive`: datos conservados de la web publicada.
-- `styles.css`: estilos, colores y adaptación a móvil.
+The generator creates `index.html` and a page for every `projects[].id`. Existing project IDs and paths are preserved. Do not edit generated HTML independently; a rebuild will replace it.
 
-## Imágenes
-Se utilizan las diez imágenes recuperadas de la conversación. Se han exportado copias JPG optimizadas (máximo 2000 px) sin modificar los originales. Portadas: coche bajo la lluvia, pescador entrando al mar, Valeria con vestido verde al atardecer y Alura en hotel con copa. Las otras imágenes aparecen en las galerías de sus respectivos proyectos.
+- `site`: studio positioning, hero, About, capabilities and contact copy.
+- `projects`: narrative films, branded concepts and cinematic worlds. `home_group` controls their homepage placement.
+- `projects[].videos`: published films. Keep the portrait films in the order shown under **Most recent** on the official `@laniusfilms` YouTube channel. A landscape introduction/trailer is presented separately, without implying it is a recent release.
+- `featured_count`: number of portrait films shown before the expandable archive. Every earlier film remains available.
+- `featured_films`: curated branded concepts on the homepage, explicitly identified as independent spec work.
+- `more_work`: the three recent releases, in official channel publication order.
+- `more_work_archive`: previous homepage selections, preserved in a clearly labelled archive.
+- `image`: existing JPG artwork basename under `assets`; `cover_url` supports an approved local image or external poster.
+- `artwork_sources`: original URLs for the approved artwork copied into `assets`, retained for provenance.
+- `thumbnail`: local approved designed artwork, including the original NO PLANS editorial poster at `assets/no-plans-poster.png`. Do not replace designed posters with automatic video frames.
+- `email`, `youtube`, `archive`, `reel_url`, `reel_thumbnail`: studio contacts, earlier work and the 2026 showreel.
 
-El logo original se conserva sin modificar en `assets/lanius-logo.png`, utilizado en cabecera, pie y favicon. Las miniaturas del showreel y de los vídeos usan las URLs públicas de YouTube: requieren conexión y se pueden sustituir por nuevas URLs en `content.json`. Spec AI Campaigns usa la miniatura de The Morning After.
+## Editorial rules
 
-La selección incluye 17 películas y el showreel de 2026. Se conserva el orden principal: The Passenger, Vex Darkness, Valeria Satie, Alura Thorne y Spec AI Campaigns. No se han inventado clientes, resultados ni créditos.
+THE WISH is the first narrative film, followed by The Passenger. Campaigns are self-initiated concepts, with no invented clients or commercial credits. Vex Darkness, Alura Thorne and Valeria Satie retain their own pages and earlier films. Previously published links and original galleries are preserved. Use the official Lanius Films channel for publication order and approved portfolio artwork for posters.
 
-## Vista local
-Abre `index.html` directamente o ejecuta `python3 -m http.server 8000` y visita http://localhost:8000.
+## Local preview
 
-## Varios vídeos por proyecto
-`videos` contiene objetos con `title`, `url`, `thumbnail` y `category`. La home enlaza la pieza principal y la colección; cada página de proyecto muestra todas sus películas con miniaturas. `video_url` queda como respaldo para proyectos sin lista.
-
-## Selección AI — noviembre 2026
-La home presenta únicamente piezas AI. `more_work` contiene la selección reciente; `projects[].videos` reúne cada colección. `format` admite `landscape` o `portrait`. Las versiones alternativas están en `alternate_versions`. Los vídeos de rodaje real siguen disponibles en YouTube y en la copia anterior de esta web.
+Run `python3 -m http.server 8765 --bind 127.0.0.1` from this directory, then open `http://127.0.0.1:8765/`. Check every generated page at desktop and mobile widths before publishing.
