@@ -11,9 +11,31 @@
       "image": null,
       "cover_url": "assets/cover-jkNq7t0en-g.jpg",
       "alt": "THE WISH — approved psychological horror short film poster",
-      "description": "A psychological horror short exploring desire, guilt and responsibility. Cinematic tension shaped through direction, generative filmmaking, editing and sound.",
+      "description": "Emily returns home on a rainy night and senses that something is wrong. As small details reveal what happened, she must confront the consequences of a wish she never spoke aloud.",
       "tags": "Direction · Generative filmmaking · Editing · Sound design",
-      "gallery": [],
+      "gallery": [
+        {
+          "src": "assets/the-wish-still-01.jpg",
+          "alt": "Emily in the dimly lit apartment",
+          "caption": "Emily in the dimly lit apartment",
+          "width": 1088,
+          "height": 608
+        },
+        {
+          "src": "assets/the-wish-still-02.jpg",
+          "alt": "Emily beside the kitchen counter",
+          "caption": "Emily beside the kitchen counter",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "assets/the-wish-still-03.jpg",
+          "alt": "A figure at the rain-streaked window",
+          "caption": "A figure at the rain-streaked window",
+          "width": 1600,
+          "height": 900
+        }
+      ],
       "video_url": "https://www.youtube.com/watch?v=jkNq7t0en-g",
       "videos": [
         {
@@ -21,7 +43,8 @@
           "url": "https://www.youtube.com/watch?v=jkNq7t0en-g",
           "thumbnail": "assets/cover-jkNq7t0en-g.jpg",
           "category": "Psychological horror short film",
-          "format": "landscape"
+          "format": "landscape",
+          "description": "Emily returns home on a rainy night and senses that something is wrong. As small details reveal what happened, she must confront the consequences of a wish she never spoke aloud."
         }
       ],
       "home_group": "narrative"
@@ -32,11 +55,32 @@
       "category": "Narrative / AI Short Film",
       "image": "passenger",
       "alt": "A car driving through a rain-soaked forest at night",
-      "description": "Atmosphere-led visual storytelling, built around cinematic framing, tension and a cohesive narrative world.",
+      "description": "A woman is taken from a mental health facility and driven deep into the forest. What begins as a controlled transfer turns into something else entirely.",
       "tags": "Narrative · Atmosphere · Generative video",
       "gallery": [
         "passenger-mirror",
-        "passenger-forest"
+        "passenger-forest",
+        {
+          "src": "assets/the-passenger-still-01.jpg",
+          "alt": "A car outside the facility on a rainy night",
+          "caption": "A car outside the facility on a rainy night",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "assets/the-passenger-still-02.jpg",
+          "alt": "The passenger looks out of the car window",
+          "caption": "The passenger looks out of the car window",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "assets/the-passenger-still-03.jpg",
+          "alt": "The car reaches a forest at night",
+          "caption": "The car reaches a forest at night",
+          "width": 1600,
+          "height": 900
+        }
       ],
       "video_url": "https://www.youtube.com/watch?v=e6pMpZrxgxc",
       "videos": [
@@ -45,7 +89,8 @@
           "url": "https://www.youtube.com/watch?v=e6pMpZrxgxc",
           "thumbnail": "assets/cover-e6pMpZrxgxc.jpg",
           "category": "Narrative AI short film",
-          "format": "landscape"
+          "format": "landscape",
+          "description": "A woman is taken from a mental health facility and driven deep into the forest. What begins as a controlled transfer turns into something else entirely."
         }
       ],
       "home_group": "narrative"
@@ -58,7 +103,29 @@
       "alt": "NOCTURNE — Scent of the Night, AI fragrance film",
       "description": "Self-initiated concepts for fragrance, beauty, fashion and human-centred technology. Creative direction, generative production and post-production, developed as independent spec work.",
       "tags": "Spec work · Creative direction · Branded content",
-      "gallery": [],
+      "gallery": [
+        {
+          "src": "assets/spec-ai-campaigns-still-01.jpg",
+          "alt": "NOCTURNE — a night in the city",
+          "caption": "NOCTURNE — a night in the city",
+          "width": 1600,
+          "height": 903
+        },
+        {
+          "src": "assets/spec-ai-campaigns-still-02.jpg",
+          "alt": "NOCTURNE — a glance in the rear-view mirror",
+          "caption": "NOCTURNE — a glance in the rear-view mirror",
+          "width": 1600,
+          "height": 903
+        },
+        {
+          "src": "assets/spec-ai-campaigns-still-03.jpg",
+          "alt": "NOCTURNE — a car beneath the night lights",
+          "caption": "NOCTURNE — a car beneath the night lights",
+          "width": 900,
+          "height": 1600
+        }
+      ],
       "video_url": "https://www.youtube.com/watch?v=h940Uvh2X5c",
       "videos": [
         {
@@ -66,35 +133,40 @@
           "url": "https://www.youtube.com/watch?v=h940Uvh2X5c",
           "thumbnail": "assets/cover-h940Uvh2X5c.jpg",
           "category": "AI fragrance spec film",
-          "format": "landscape"
+          "format": "landscape",
+          "description": "A fragrance concept exploring desire, attraction and the darker side of the night. Fashion, city lights and intimate encounters build a sensory world around a fictional scent."
         },
         {
           "title": "US. — A Future Built Around People",
           "url": "https://www.youtube.com/watch?v=4_iEX9mQpNQ",
           "thumbnail": "assets/cover-4_iEX9mQpNQ.jpg",
           "category": "AI spec commercial",
-          "format": "landscape"
+          "format": "landscape",
+          "description": "A speculative vision of a near future shaped around people: accessible mobility, intelligent cities and connected communities. An independent concept about technology that creates more freedom, connection and time."
         },
         {
           "title": "SEREIN — After the Rain",
           "url": "https://www.youtube.com/shorts/oqhsqRslQGY",
           "thumbnail": "assets/cover-oqhsqRslQGY.jpg",
           "category": "AI fragrance film",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "After the rain, Mediterranean light, wet stone and a coastal breeze become the language of a fictional fragrance. A quiet sensory concept featuring Valeria Satie."
         },
         {
           "title": "The Morning After",
           "url": "https://youtube.com/shorts/u-hAFLda9GM?si=MUGkpr47fwujF1lz",
           "thumbnail": "assets/cover-u-hAFLda9GM.jpg",
           "category": "Beauty",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "A quiet hotel room holds traces of the night before. A shower, morning light and the small rituals before leaving shape this intimate beauty and lifestyle sequence."
         },
         {
           "title": "The Dressing Room",
           "url": "https://www.youtube.com/shorts/te0JJL8hJd0",
           "thumbnail": "assets/cover-te0JJL8hJd0.webp",
           "category": "AI fashion film",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "Luxury, texture and the rituals of dressing, seen through the world of Alura Thorne. A short fashion study built around tactile detail and cinematic atmosphere."
         }
       ],
       "cover_url": "assets/cover-h940Uvh2X5c.jpg",
@@ -116,7 +188,28 @@
       "description": "An interconnected horror universe exploring found-footage aesthetics, unsettling environments and visual mythology.",
       "tags": "Horror · Found footage · Worldbuilding",
       "gallery": [
-        "vex-entities"
+        "vex-entities",
+        {
+          "src": "assets/vex-darkness-still-01.jpg",
+          "alt": "Cave Log — exploring the narrow passage",
+          "caption": "Cave Log — exploring the narrow passage",
+          "width": 900,
+          "height": 1600
+        },
+        {
+          "src": "assets/vex-darkness-still-02.jpg",
+          "alt": "Cave Log — Aitor underground",
+          "caption": "Cave Log — Aitor underground",
+          "width": 992,
+          "height": 1585
+        },
+        {
+          "src": "assets/vex-darkness-still-03.jpg",
+          "alt": "Cave Log — trapped between the rocks",
+          "caption": "Cave Log — trapped between the rocks",
+          "width": 899,
+          "height": 1600
+        }
       ],
       "video_url": "https://www.youtube.com/shorts/P9TQxCZPGJY",
       "videos": [
@@ -125,56 +218,64 @@
           "url": "https://www.youtube.com/shorts/P9TQxCZPGJY",
           "thumbnail": "assets/cover-P9TQxCZPGJY.jpg",
           "category": "AI found-footage horror",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "Deep underground, a lone explorer is trapped in an increasingly hostile passage. This teaser for the final Cave Log episode brings isolation, claustrophobia and the fear of something unseen to breaking point."
         },
         {
           "title": "Cave Log 02",
           "url": "https://www.youtube.com/shorts/DyXkabDWp_I",
           "thumbnail": "assets/cover-DyXkabDWp_I.jpg",
           "category": "AI found-footage horror",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "Lost in the cave system, Aitor hears unexplained sounds drawing closer. Evidence of an earlier expedition changes the nature of his journey as his sense of direction begins to collapse."
         },
         {
           "title": "Cave Log 01",
           "url": "https://www.youtube.com/shorts/7UeY4af_LAo",
           "thumbnail": "assets/cover-7UeY4af_LAo.jpg",
           "category": "AI found-footage horror",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "A solo cave explorer loses track of the way back. The passages narrow, the journey becomes more physical, and an unidentified sound is recorded somewhere behind him."
         },
         {
           "title": "The Basement Files",
           "url": "https://www.youtube.com/shorts/TeCGtJEi6ZY",
           "thumbnail": "assets/cover-TeCGtJEi6ZY.jpg",
           "category": "AI found-footage horror",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "An open door leads down a narrow staircase into a dark basement. A found-footage descent built around silence, uneasy camera movement and the fear of what remains unseen."
         },
         {
           "title": "Jarjacha",
           "url": "https://youtube.com/shorts/CXYfxc1Yt4E?si=5esPCmAtYRcJU6DT",
           "thumbnail": "assets/cover-CXYfxc1Yt4E.jpg",
           "category": "Horror",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "A distant animal crosses an isolated Andean landscape at dusk. Its shape seems familiar, until the way it moves stops making sense. A found-footage short inspired by Andean folklore."
         },
         {
           "title": "La Llorona",
           "url": "https://www.youtube.com/shorts/1KGSpgnToDw",
           "thumbnail": "assets/cover-1KGSpgnToDw.jpg",
           "category": "Dashcam horror",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "A driver encounters a solitary figure on an empty road at night. Dashcam imagery and low visibility turn a distant woman in white into an unsettling encounter inspired by Latin American folklore."
         },
         {
           "title": "Ghost Kitchen",
           "url": "https://www.youtube.com/shorts/d6-8Xs66ecg",
           "thumbnail": "assets/cover-d6-8Xs66ecg.webp",
           "category": "Found-footage horror",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "A fixed camera records an ordinary kitchen. A small visual anomaly gradually becomes impossible to ignore, turning a familiar domestic space into a scene of quiet unease."
         },
         {
           "title": "The Follower",
           "url": "https://www.youtube.com/shorts/prTiM81a8KE",
           "thumbnail": "assets/cover-prTiM81a8KE.webp",
           "category": "Found-footage horror",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "An ordinary late-night walk through a quiet park becomes a fragmented personal recording of fear. Close handheld framing follows a woman who realizes she may not be alone."
         }
       ],
       "featured_count": 3,
@@ -190,7 +291,28 @@
       "tags": "Digital character · Luxury · Fashion",
       "gallery": [
         "alura-fashion-1",
-        "alura-fashion-2"
+        "alura-fashion-2",
+        {
+          "src": "assets/alura-thorne-still-01.jpg",
+          "alt": "NO PLANS — a moment at the mirror",
+          "caption": "NO PLANS — a moment at the mirror",
+          "width": 902,
+          "height": 1600
+        },
+        {
+          "src": "assets/alura-thorne-still-02.jpg",
+          "alt": "NO PLANS — the photographer between takes",
+          "caption": "NO PLANS — the photographer between takes",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "src": "assets/alura-thorne-still-03.jpg",
+          "alt": "NO PLANS — an editorial detail in warm light",
+          "caption": "NO PLANS — an editorial detail in warm light",
+          "width": 901,
+          "height": 1600
+        }
       ],
       "video_url": "https://www.youtube.com/shorts/vsHMxG053Dw",
       "videos": [
@@ -199,56 +321,64 @@
           "url": "https://www.youtube.com/shorts/vsHMxG053Dw",
           "thumbnail": "assets/no-plans-poster.png",
           "category": "AI character film",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "An ordinary afternoon quietly becomes something else: changes of clothes, a camera shutter and small gestures between photographs. An intimate glimpse into the moments when the camera is supposed to be off."
         },
         {
           "title": "A Little Longer",
           "url": "https://www.youtube.com/shorts/K3hB-RP3zM8",
           "thumbnail": "assets/cover-K3hB-RP3zM8.jpg",
           "category": "AI character film",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "A light left on, a quiet room and a moment that does not need to end. Alura Thorne explores desire, anticipation and the invitations that remain unspoken."
         },
         {
           "title": "Beside You",
           "url": "https://www.youtube.com/shorts/caqMSJXVtnQ",
           "thumbnail": "assets/cover-caqMSJXVtnQ.jpg",
           "category": "AI character film",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "A kind gesture, a familiar song and an unexpected connection make a quiet day feel less lonely. An intimate short about everyday kindness and the comfort of having someone beside you."
         },
         {
           "title": "Balance",
           "url": "https://www.youtube.com/shorts/OqDUNW3se6k",
           "thumbnail": "assets/cover-OqDUNW3se6k.jpg",
           "category": "AI character film",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "Through quiet gestures and fleeting thoughts, Alura reflects on what to hold on to and what to release. A character short about control, letting go and knowing what matters."
         },
         {
           "title": "Stay",
           "url": "https://www.youtube.com/shorts/nfdTQyKK2tw",
           "thumbnail": "assets/cover-nfdTQyKK2tw.webp",
           "category": "AI character film",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "Something small brings a memory back, carrying Alura to a moment and a version of herself she thought she had left behind. For a moment, she lets it stay."
         },
         {
           "title": "Rituals",
           "url": "https://www.youtube.com/shorts/4KPNG_sq3s0",
           "thumbnail": "assets/cover-4KPNG_sq3s0.jpg",
           "category": "AI character film",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "Morning light, coffee, fabric and small gestures reveal Alura through her everyday rituals. A quiet character study told through body language, detail and visual rhythm."
         },
         {
           "title": "Costa Brava",
           "url": "https://www.youtube.com/shorts/yGPv1dmWs1Y",
           "thumbnail": "assets/cover-yGPv1dmWs1Y.webp",
           "category": "AI character film",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "Alura moves through a Mediterranean coastal town in the warm evening light. Elegant movement and intimate details connect character with the atmosphere of the Costa Brava."
         },
         {
           "title": "Come Closer",
           "url": "https://www.youtube.com/watch?v=97rAzkZPVqM",
           "thumbnail": "assets/cover-97rAzkZPVqM.webp",
           "category": "Cinematic AI trailer",
-          "format": "landscape"
+          "format": "landscape",
+          "description": "Intimate rituals, fleeting encounters and quiet decisions introduce the world of Alura Thorne. An atmospheric trailer for a character who lives by her own rules."
         }
       ],
       "featured_count": 4,
@@ -264,7 +394,28 @@
       "description": "Fashion films and travel stories built around a recurring character. The Sessions explore performance, movement and character continuity through generative production and editing.",
       "tags": "Character consistency · Lifestyle · Travel",
       "gallery": [
-        "valeria-ocean"
+        "valeria-ocean",
+        {
+          "src": "assets/valeria-still-01.jpg",
+          "alt": "SESSION 05 — UNPOSED · editorial portrait",
+          "caption": "SESSION 05 — UNPOSED · editorial portrait",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "src": "assets/valeria-still-02.jpg",
+          "alt": "SESSION 05 — UNPOSED · a quiet moment between takes",
+          "caption": "SESSION 05 — UNPOSED · a quiet moment between takes",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "src": "assets/valeria-still-03.jpg",
+          "alt": "SESSION 05 — UNPOSED · portrait in black satin",
+          "caption": "SESSION 05 — UNPOSED · portrait in black satin",
+          "width": 1086,
+          "height": 1448
+        }
       ],
       "video_url": "https://www.youtube.com/shorts/B-Z4Kjno2xo",
       "videos": [
@@ -273,56 +424,64 @@
           "url": "https://www.youtube.com/shorts/B-Z4Kjno2xo",
           "thumbnail": "assets/cover-B-Z4Kjno2xo.jpg",
           "category": "AI fashion film",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "Three women, a camera and the moments in between. Carefully composed editorial portraits give way to quiet, unguarded moments between takes, revealing beauty, presence and individuality."
         },
         {
           "title": "Session 04 — Masquerades",
           "url": "https://www.youtube.com/shorts/GRWvNh3HzEI",
           "thumbnail": "assets/cover-GRWvNh3HzEI.jpg",
           "category": "AI fashion film",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "Elegance, mystery and quiet confidence meet in a fashion film about appearance and identity. Some things are revealed; others remain hidden."
         },
         {
           "title": "Session 03",
           "url": "https://www.youtube.com/shorts/UGk3CSBFAs8",
           "thumbnail": "assets/cover-UGk3CSBFAs8.webp",
           "category": "AI fashion film",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "From New York streets to intimate interiors, an eclectic fashion editorial follows moments of work, play and spontaneity. A new fragment of Valeria’s visual world."
         },
         {
           "title": "Session 02",
           "url": "https://www.youtube.com/shorts/oXF-xJfsDTw",
           "thumbnail": "assets/cover-oXF-xJfsDTw.webp",
           "category": "AI fashion film",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "An autumn editorial built around effortless elegance, subtle movement and fleeting moments. A study of fashion, identity and the freedom of having nowhere to be."
         },
         {
           "title": "Session 01",
           "url": "https://www.youtube.com/shorts/mIppZI_FBTA",
           "thumbnail": "assets/cover-mIppZI_FBTA.webp",
           "category": "AI fashion film",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "Natural light, movement and texture introduce Valeria Satie through intimate cinematic fragments. An editorial in which ordinary moments become a story without words."
         },
         {
           "title": "Sant Joan",
           "url": "https://youtube.com/shorts/jWVXYVN-Y2I?si=QXNgGBjqFc1zawLg",
           "thumbnail": "assets/cover-jWVXYVN-Y2I.webp",
           "category": "AI Character",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "Warm summer nights, fireworks, city spaces and quiet moments by the pool. Valeria moves through the atmosphere of Sant Joan in a cinematic lifestyle short."
         },
         {
           "title": "Iceland",
           "url": "https://www.youtube.com/shorts/oN-sfSQ3YX4",
           "thumbnail": "assets/cover-oN-sfSQ3YX4.webp",
           "category": "AI character film",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "Cold landscapes meet warm interiors, spa settings and geothermal water. Valeria travels through the contrasts of Iceland in a cinematic study of place, character and continuity."
         },
         {
           "title": "Madeira",
           "url": "https://youtube.com/shorts/u4Ar4bxAP8I?si=lPZs9Ay-Skrv72z3",
           "thumbnail": "assets/cover-u4Ar4bxAP8I.webp",
           "category": "AI Character",
-          "format": "portrait"
+          "format": "portrait",
+          "description": "Valeria moves through Madeira’s dramatic coastlines, water and rock formations. Natural light and warm evening tones shape a cinematic travel editorial."
         }
       ],
       "featured_count": 4,
@@ -337,21 +496,24 @@
       "url": "https://www.youtube.com/shorts/P9TQxCZPGJY",
       "thumbnail": "assets/cover-P9TQxCZPGJY.jpg",
       "category": "AI found-footage horror",
-      "format": "portrait"
+      "format": "portrait",
+      "description": "Deep underground, a lone explorer is trapped in an increasingly hostile passage. This teaser for the final Cave Log episode brings isolation, claustrophobia and the fear of something unseen to breaking point."
     },
     {
       "title": "SESSION 05 — UNPOSED",
       "url": "https://www.youtube.com/shorts/B-Z4Kjno2xo",
       "thumbnail": "assets/cover-B-Z4Kjno2xo.jpg",
       "category": "AI fashion film",
-      "format": "portrait"
+      "format": "portrait",
+      "description": "Three women, a camera and the moments in between. Carefully composed editorial portraits give way to quiet, unguarded moments between takes, revealing beauty, presence and individuality."
     },
     {
       "title": "NO PLANS",
       "url": "https://www.youtube.com/shorts/vsHMxG053Dw",
       "thumbnail": "assets/no-plans-poster.png",
       "category": "AI character film",
-      "format": "portrait"
+      "format": "portrait",
+      "description": "An ordinary afternoon quietly becomes something else: changes of clothes, a camera shutter and small gestures between photographs. An intimate glimpse into the moments when the camera is supposed to be off."
     }
   ],
   "featured_films": [
@@ -360,14 +522,16 @@
       "url": "https://www.youtube.com/watch?v=h940Uvh2X5c",
       "thumbnail": "assets/cover-h940Uvh2X5c.jpg",
       "category": "AI fragrance spec film",
-      "format": "landscape"
+      "format": "landscape",
+      "description": "A fragrance concept exploring desire, attraction and the darker side of the night. Fashion, city lights and intimate encounters build a sensory world around a fictional scent."
     },
     {
       "title": "US. — A Future Built Around People",
       "url": "https://www.youtube.com/watch?v=4_iEX9mQpNQ",
       "thumbnail": "assets/cover-4_iEX9mQpNQ.jpg",
       "category": "AI spec commercial",
-      "format": "landscape"
+      "format": "landscape",
+      "description": "A speculative vision of a near future shaped around people: accessible mobility, intelligent cities and connected communities. An independent concept about technology that creates more freedom, connection and time."
     }
   ],
   "more_work_archive": [
@@ -376,28 +540,32 @@
       "url": "https://www.youtube.com/shorts/oqhsqRslQGY",
       "thumbnail": "assets/cover-oqhsqRslQGY.jpg",
       "category": "AI fragrance film",
-      "format": "portrait"
+      "format": "portrait",
+      "description": "After the rain, Mediterranean light, wet stone and a coastal breeze become the language of a fictional fragrance. A quiet sensory concept featuring Valeria Satie."
     },
     {
       "title": "Session 04 — Masquerades",
       "url": "https://www.youtube.com/shorts/GRWvNh3HzEI",
       "thumbnail": "assets/cover-GRWvNh3HzEI.jpg",
       "category": "AI fashion film",
-      "format": "portrait"
+      "format": "portrait",
+      "description": "Elegance, mystery and quiet confidence meet in a fashion film about appearance and identity. Some things are revealed; others remain hidden."
     },
     {
       "title": "A Little Longer",
       "url": "https://www.youtube.com/shorts/K3hB-RP3zM8",
       "thumbnail": "assets/cover-K3hB-RP3zM8.jpg",
       "category": "AI character film",
-      "format": "portrait"
+      "format": "portrait",
+      "description": "A light left on, a quiet room and a moment that does not need to end. Alura Thorne explores desire, anticipation and the invitations that remain unspoken."
     },
     {
       "title": "Anomalous Contact",
       "url": "https://www.youtube.com/shorts/ENhfoylp6CQ",
       "thumbnail": "assets/cover-ENhfoylp6CQ.jpg",
       "category": "AI science fiction",
-      "format": "portrait"
+      "format": "portrait",
+      "description": "An unexpected anomaly appears in deep space. A visual teaser for Vex Darkness, shaped through claustrophobic science-fiction atmosphere, colour and sound design."
     }
   ],
   "site": {

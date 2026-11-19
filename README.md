@@ -1,6 +1,6 @@
 # Lanius Films — Independent Film & Creative Production
 
-Static studio portfolio for GitHub Pages. No installation or browser JavaScript required.
+Static studio portfolio for GitHub Pages. No installation required. A small browser script opens the embedded YouTube player; direct video links remain usable without JavaScript.
 
 ## Update and build
 
@@ -27,3 +27,9 @@ THE WISH is the first narrative film, followed by The Passenger. Campaigns are s
 ## Local preview
 
 Run `python3 -m http.server 8765 --bind 127.0.0.1` from this directory, then open `http://127.0.0.1:8765/`. Check every generated page at desktop and mobile widths before publishing.
+
+## Playback and project stills
+
+Watch actions and video covers open a YouTube privacy-enhanced iframe in an accessible dialog. The player is created on demand and removed on close, with a direct YouTube fallback. No video files are hosted in this repository.
+
+Each published film has a `description` summarised from its official channel description. `projects[].gallery` accepts the original artwork names and objects containing `src`, `alt`, `caption`, `width`, and `height`. The additional project stills are web-sized copies of the original project SF assets; originals remain untouched. Preserve the approved posters and publication order.
